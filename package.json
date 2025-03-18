@@ -1,7 +1,7 @@
 {
 	"name": "@ionic-sveltekit/components",
-  "version": "0.0.1",
-  "description": "ionic-sveltekit framework components",
+	"version": "0.0.2",
+	"description": "ionic-sveltekit framework components",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build && npm run prepack",
@@ -58,20 +58,20 @@
 		"briznads-helpers": "^1.8.0"
 	},
 	"license": "MIT",
-  "author": "briznad@gmail.com",
+	"author": "briznad@gmail.com",
 	"repository": {
-    "type": "git",
-    "url": "git+https://github.com/ionic-sveltekit/components.git"
-  },
+		"type": "git",
+		"url": "git+https://github.com/ionic-sveltekit/components.git"
+	},
 	"bugs": {
-    "url": "https://github.com/ionic-sveltekit/components/issues"
-  },
-  "homepage": "https://github.com/ionic-sveltekit/components#readme",
-  "keywords": [
-    "Ionic",
-    "SvelteKit",
-    "components",
-    "framework components",
-    "ionic-sveltekit"
-  ]
+		"url": "https://github.com/ionic-sveltekit/components/issues"
+	},
+	"homepage": "https://github.com/ionic-sveltekit/components#readme",
+	"keywords": [
+		"Ionic",
+		"SvelteKit",
+		"components",
+		"framework components",
+		"ionic-sveltekit"
+	]
 }
