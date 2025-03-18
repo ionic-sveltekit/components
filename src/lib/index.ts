@@ -13,3 +13,6 @@ export { default as Tooltip } from "$components/Tooltip.svelte";
 // Ago
 export type { Props as AgoProps } from "$components/Ago.svelte";
 export { default as Ago } from "$components/Ago.svelte";
+// ViewTransition
+export type { Props as ViewTransitionProps } from "$components/ViewTransition.svelte";
+export { default as ViewTransition } from "$components/ViewTransition.svelte";
