@@ -184,4 +184,4 @@ Future development will include additional desktop page layout modules and more 
 
 ## License
 
-MIT
+[MIT](LICENSE)
