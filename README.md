@@ -12,7 +12,7 @@ This package provides a set of ready-to-use components that integrate Ionic UI e
 npm install @ionic-sveltekit/components
 ```
 
-This package requires `@ionic-sveltekit/core` as a peer dependency.
+This package requires [`@ionic-sveltekit/core`](https://github.com/ionic-sveltekit/core) as a peer dependency.
 
 ## Components
 
@@ -41,7 +41,7 @@ The `Tabs` component combines SvelteKit routing with Ionic's tab UI layout. It h
 
 <Tabs {tabs}>
   {#snippet content()}
-    <slot />
+    {@render children()}
   {/snippet}
 </Tabs>
 ```
@@ -178,9 +178,9 @@ Future development will include additional desktop page layout modules and more 
 
 ## Requirements
 
-- SvelteKit 2.0 or higher
-- @ionic-sveltekit/core
-- Svelte 5.0 or higher
+- [SvelteKit 2](https://svelte.dev/docs/kit/introduction) or higher
+- [@ionic-sveltekit/core](https://github.com/ionic-sveltekit/core)
+- [Svelte 5](https://svelte.dev/docs/svelte/v5-migration-guide) or higher
 
 ## License
 
